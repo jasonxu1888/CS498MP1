@@ -14,6 +14,7 @@ def get_num():
 def post_num():
     global seed
     seed = request.json["num"]
+    return "OK", 200
 
 
 if __name__ == "__main__":
