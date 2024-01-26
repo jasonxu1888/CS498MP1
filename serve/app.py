@@ -7,7 +7,7 @@ app = Flask(__name__)
 def get_num():
     import socket
 
-    return socket.gethostbyname()
+    return socket.gethostname()
 
 
 @app.post("/")
